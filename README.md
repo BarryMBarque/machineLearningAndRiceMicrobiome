@@ -1,1 +1,75 @@
-# machineLearningAndRiceMicrobiome
+# Micronet
+
+O Projeto Micronet foi desenvolvido com o objetivo de treinar e classificar a saúde de um organismo em função do seu microbioma.
+
+## Índice
+
+- [Sobre](#sobre)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Funcionalidades](#funcionalidades)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
+- [Autores](#autores)
+- [Agradecimentos](#agradecimentos)
+
+## Sobre
+
+O Projeto Micronet foi desenvolvido com o objetivo de classificar a saúde de um organismo em função do seu microbioma. Especificamente, ele foi desenvolvido utilizando como conjuntos de dados amostras de cultura de arroz saudável e doente causada pela Dickeya zeae. Este projeto utiliza vários modelos, desde os mais clássicos como SVM, MLP, Random Forest e Árvore de Decisão, até modelos mais complexos como o MDeep, que é uma rede neural convolucional, e a própria Micronet, uma rede neural totalmente conectada. Este projeto treina e classifica a saúde das amostras, com uma taxa de AUC de mais de 90%. Neste projeto, também foram utilizados os SHAP values, que explicam melhor a previsão de cada modelo. Além disso, os resultados obtidos são avaliados utilizando métricas, matriz de confusão e a geração das árvores de decisão.
+
+## Instalação
+
+Passos para instalar as dependências e configurar o ambiente de desenvolvimento.
+
+```bash
+# Clone o repositório
+git clone https://github.com/BarryMBarque/machineLearningAndRiceMicrobiome.git
+
+# Entre no diretório do projeto
+cd machineLearningAndRiceMicrobiome
+
+Utilize o Jupyter Notebook para executar localmente este projeto
+
+# Instale as dependências
+pip install -r requirements.txt
+
+# Descompacte o zip datasets.zip
+```
+
+## Uso
+
+Instruções claras sobre como usar seu projeto. Inclua exemplos de uso, se possível.
+
+```bash
+# Exemplo de comando para rodar o projeto
+Executar o notebook Micronet.ipynb através do Jupyter Notebook
+```
+
+## Funcionalidades
+
+- Previsão da saúde de organismos com base em seu microbioma.
+- Análise de desempenho de diversos modelos de aprendizado de máquina.
+- Visualização de métricas e interpretação de modelos através de SHAP values e árvores de decisão.
+
+## Contribuindo
+
+Instruções para quem deseja contribuir com o projeto.
+
+- Faça um fork do projeto.
+- Crie uma nova branch (git checkout -b feature/nova-funcionalidade).
+- Faça as alterações desejadas e commit (git commit -am 'Adiciona nova funcionalidade').
+- Faça o push para a branch (git push origin feature/nova-funcionalidade).
+- Crie um Pull Request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para detalhes.
+
+## Autores
+
+- Barry Malick Barque - Trabalho inicial - [Perfil](https://github.com/BarryMBarque)
+
+## Agradecimentos
+
+Agradeço a todos que contribuíram para o projeto de alguma forma.
+Links úteis ou referências que foram utilizadas.
