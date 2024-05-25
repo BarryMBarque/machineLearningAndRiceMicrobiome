@@ -49,6 +49,9 @@ jupyter notebook
 ```
 Após executar os passos de intalação, descompacte o zip datasets.zip do projeto e execute o notebook Micronet.ipynb
 
+### Utilizando os conjuntos de dados de um outro projetos.
+Lembrando que para esse projeto é consjunto de calssificadores binário, que precisam de 3 árquivos, sendo a tabela de abundancia (ASVs) das amostras classificadas como 0 ou 1, a Tabela de correlação entre as ASVs, e uma tabela que contém os Ids dos ASVs e seus repectivos nomes scientificos.
+
 ## Funcionalidades
 
 - Previsão da saúde de organismos com base em seu microbioma.
