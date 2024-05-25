@@ -48,13 +48,14 @@ conda install jupyter
 jupyter notebook
 ```
 Após executar os passos de intalação, descompacte o zip datasets.zip do projeto e execute o notebook Micronet.ipynb
-
 #### Vídeo demostrativo para executar esse projeto
-[Vídeo](https://drive.google.com/file/d/1TsKZFqV2b6tgyEtL5I9PBXrpTyp9fp7A/view?usp=sharing)
-
+[Vídeo 1](https://drive.google.com/file/d/1TsKZFqV2b6tgyEtL5I9PBXrpTyp9fp7A/view?usp=sharing)
 
 ### Utilizando os conjuntos de dados de um outro projetos.
 Lembrando que para esse projeto é consjunto de calssificadores binário, que precisam de 3 árquivos, sendo a tabela de abundancia (ASVs) das amostras classificadas como 0 ou 1, a Tabela de correlação entre as ASVs, e uma tabela que contém os Ids dos ASVs e seus repectivos nomes scientificos.
+#### Após executar os passos do primeiro vídeo
+[Vídeo 2](https://drive.google.com/file/d/1ewfq5HRGmDreDQCnEHy-n3EKO3qMtkmo/view?usp=sharing)
+
 
 ## Funcionalidades
 
