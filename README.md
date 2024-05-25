@@ -28,7 +28,7 @@ git clone https://github.com/BarryMBarque/machineLearningAndRiceMicrobiome.git
 # Entre no diretório do projeto
 cd machineLearningAndRiceMicrobiome
 
-# Crie um ambiente virtual com o Conda (Versão utilizada: 4.10.3) link para instalação: [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+# Crie um ambiente virtual com o Conda (Versão utilizada: 4.10.3) link para instalação: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
 conda create --name meu_ambiente python=3.9
 
 # Ativar o ambiente virtaul
