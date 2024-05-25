@@ -37,8 +37,8 @@ conda activate meu_ambiente
 # Instalar as dependências
 pip install -r requirements.txt
 
-#Instalar o jupyter notebook na versão 7.0.8
-conda install jupyter=7.0.8
+#Instalar o jupyter notebook
+conda install jupyter
 ```
 
 ## Uso
