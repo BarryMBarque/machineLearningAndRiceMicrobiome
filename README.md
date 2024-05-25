@@ -32,7 +32,7 @@ cd machineLearningAndRiceMicrobiome
 conda create --name meu_ambiente python=3.9
 
 # Ativar o ambiente virtaul
-conda create --name meu_ambiente python=3.8
+conda activate meu_ambiente
 
 # Instalar as dependências
 pip install -r requirements.txt
