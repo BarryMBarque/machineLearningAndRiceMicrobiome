@@ -49,7 +49,7 @@ jupyter notebook
 ```
 Após executar os passos de intalação, descompacte o zip datasets.zip do projeto e execute o notebook Micronet.ipynb
 
-#### vídeo demostrativo para executar esse projeto
+#### Vídeo demostrativo para executar esse projeto
 [Vídeo](https://drive.google.com/file/d/1TsKZFqV2b6tgyEtL5I9PBXrpTyp9fp7A/view?usp=sharing)
 
 
