@@ -15,7 +15,7 @@ O Projeto Micronet foi desenvolvido com o objetivo de treinar e classificar a sa
 
 ## Sobre
 
-O Projeto Micronet foi desenvolvido com o objetivo de classificar a saúde de um organismo em função do seu microbioma. Especificamente, ele foi desenvolvido utilizando como conjuntos de dados amostras de cultura de arroz saudável e doente causada pela Dickeya zeae. Este projeto utiliza vários modelos, desde os mais clássicos como SVM, MLP, Random Forest e Árvore de Decisão, até modelos mais complexos como o MDeep, que é uma rede neural convolucional, e a própria Micronet, uma rede neural totalmente conectada. Este projeto treina e classifica a saúde das amostras, com uma taxa de AUC de mais de 90%. Neste projeto, também foram utilizados os SHAP values, que explicam melhor a previsão de cada modelo. Além disso, os resultados obtidos são avaliados utilizando métricas, matriz de confusão e a geração das árvores de decisão.
+O Projeto Micronet foi desenvolvido com o objetivo de classificar a saúde de um organismo em função do seu microbioma. Especificamente, ele foi desenvolvido utilizando como conjuntos de dados amostras de cultura de arroz saudável e doente causada pela Dickeya zeae, obtido apartir do artigo [Bez et al.](https://enviromicro-journals.onlinelibrary.wiley.com/doi/10.1111/1462-2920.15726). Este projeto utiliza vários modelos, desde os mais clássicos como SVM, MLP, Random Forest e Árvore de Decisão, até modelos mais complexos adaptado como o [Mdeep](https://github.com/lichen-lab/MDeep), que é uma rede neural convolucional, e a própria Micronet, uma rede neural totalmente conectada. Este projeto treina e classifica a saúde das amostras, com uma taxa de AUC de mais de 90%. Neste projeto, também foram utilizados os SHAP values, que explicam melhor a previsão de cada modelo. Além disso, os resultados obtidos são avaliados utilizando métricas, matriz de confusão e a geração das árvores de decisão.
 
 ## Instalação
 
@@ -28,22 +28,26 @@ git clone https://github.com/BarryMBarque/machineLearningAndRiceMicrobiome.git
 # Entre no diretório do projeto
 cd machineLearningAndRiceMicrobiome
 
-Utilize o Jupyter Notebook para executar localmente este projeto
+# Crie um ambiente virtual com o Conda (Versão utilizada: 4.10.3) link para instalação: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+conda create --name meu_ambiente python=3.9
 
-# Instale as dependências
+# Ativar o ambiente virtaul
+conda activate meu_ambiente
+
+# Instalar as dependências
 pip install -r requirements.txt
 
-# Descompacte o zip datasets.zip
+#Instalar o jupyter notebook
+conda install jupyter
 ```
 
 ## Uso
-
-Instruções claras sobre como usar seu projeto. Inclua exemplos de uso, se possível.
-
+### Utilizando os conjuntos de dados desse projeto.
 ```bash
-# Exemplo de comando para rodar o projeto
-Executar o notebook Micronet.ipynb através do Jupyter Notebook
+#Iniciar o projeto com jupyter notebook
+jupyter notebook
 ```
+Após executar os passos de intalação, descompacte o zip datasets.zip do projeto e execute o notebook Micronet.ipynb
 
 ## Funcionalidades
 
