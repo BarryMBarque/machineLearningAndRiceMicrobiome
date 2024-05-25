@@ -28,22 +28,28 @@ git clone https://github.com/BarryMBarque/machineLearningAndRiceMicrobiome.git
 # Entre no diretório do projeto
 cd machineLearningAndRiceMicrobiome
 
-Utilize o Jupyter Notebook para executar localmente este projeto
+# Crie um ambiente virtual com o Conda (Versão utilizada: 4.10.3) link para instalação: [Conda](https://conda.io/projects/conda/en/latest/user-guide/install/index.html)
+conda create --name meu_ambiente python=3.9
 
-# Instale as dependências
+# Ativar o ambiente virtaul
+conda create --name meu_ambiente python=3.8
+
+# Instalar as dependências
 pip install -r requirements.txt
 
-# Descompacte o zip datasets.zip
+#Instalar o jupyter notebook na versão 7.0.8
+conda install jupyter=7.0.8
+
+#Iniciar o projeto com jupyter notebook
+jupyter notebook
 ```
 
 ## Uso
-
-Instruções claras sobre como usar seu projeto. Inclua exemplos de uso, se possível.
-
+### Utilizando os conjuntos de dados desse projeto.
 ```bash
-# Exemplo de comando para rodar o projeto
-Executar o notebook Micronet.ipynb através do Jupyter Notebook
+#
 ```
+Após executar os passos de intalação, descompacte o zip datasets.zip do projeto e execute o notebook Micronet.ipynb
 
 ## Funcionalidades
 
