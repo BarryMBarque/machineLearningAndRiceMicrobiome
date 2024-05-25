@@ -39,15 +39,13 @@ pip install -r requirements.txt
 
 #Instalar o jupyter notebook na versão 7.0.8
 conda install jupyter=7.0.8
-
-#Iniciar o projeto com jupyter notebook
-jupyter notebook
 ```
 
 ## Uso
 ### Utilizando os conjuntos de dados desse projeto.
 ```bash
-#
+#Iniciar o projeto com jupyter notebook
+jupyter notebook
 ```
 Após executar os passos de intalação, descompacte o zip datasets.zip do projeto e execute o notebook Micronet.ipynb
 
